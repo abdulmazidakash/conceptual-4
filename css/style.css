@@ -3,3 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* .navbar-main styles starts here  */
+
+.navbar-wrapper{
+    background-color: rgb(71,85,105);
+}
+.navbar-main{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+
+}
+.nav-menu-btn{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+
+}
+.nav-hamburger-menu{
+    display: none;
+}
