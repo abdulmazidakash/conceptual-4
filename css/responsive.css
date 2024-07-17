@@ -9,6 +9,10 @@
 .navbar-main>div{
     margin-top: 20px;
 }
+.fifty-off{
+    left: 20%;
+
+}
 }
 
 @media screen and (max-width: 500px) {
@@ -24,5 +28,12 @@
         /* align-items: center; */
 
     
+    }
+    .banner-main{
+        flex-direction: column;
+    }
+    .banner-childs{
+        width: 100%;
+
     }
 }
