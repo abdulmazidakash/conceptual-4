@@ -44,4 +44,14 @@
 
         grid-template-columns: repeat(1, 1fr);
     }
+    .qna-main{
+    flex-direction: column ;
+
+    }
+    .form-container{
+        flex-direction: column;
+    }
+    .form-field{
+        width: 100%;
+    }
 }
